@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar label{
+    display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .navbar label{
+        display: block;
+    }
+    
+}
